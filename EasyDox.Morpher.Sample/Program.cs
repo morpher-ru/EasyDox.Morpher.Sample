@@ -10,6 +10,7 @@ namespace EasyDox.Morpher.Sample
         {
             // В данном примере для склонения по падежам используется веб-сервис morpher.ru,
             // но вы можете легко перейти на библиотеку Morpher.Russian.dll.
+            // Она платная, заказать ее можно на странице http://morpher.ru/Buy.aspx
             var webService = new global::Morpher.WebService.V2.Client();
 
             // Если вам не нужны функции склонения, вызовите конструктор Engine без параметров.
